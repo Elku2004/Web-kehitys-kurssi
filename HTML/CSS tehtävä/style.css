@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color:lightgoldenrodyellow;
+    overflow: hidden;
+    padding: 10px;
+}
+p{
+    color:cornflowerblue
+}
+nav{
+    padding: 10px;
+    text-align: right;
+}
+.navbox{
+    box-sizing: border-box;
+    padding: 32px;
+    border: 10px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbox:hover{
+    background-color: white;
+}
+
+.logo{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.tavimg{
+    max-width: 500px; 
+    max-height: 500px;
+}
