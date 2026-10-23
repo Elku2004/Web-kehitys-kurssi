@@ -2,25 +2,45 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    margin-left: 3%;
-    margin-right: 3%;
+}
+.teksti{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 p{
     color:cornflowerblue
 }
+a{
+    color:black;
+}
+a:visited{
+    color: black;
+}
 
-nav{
-    text-align:end;
-    margin-left: 3%;
-    margin-right: 3%;
+header{
     background-color: lightgoldenrodyellow;
     height: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    height: 4rem;
+    width: 5000rem;
+    display: flex;
 }
 
 .navbox{
-    padding: 3rem;
-    border: 3rem;
+    border-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    border: 2rem;
 }
 
 h1{
@@ -33,6 +53,7 @@ h1{
 }
 
 .logo{
+    display: inline-block;
     max-width: 3rem;
     max-height: 3rem;
     margin-left: 7%;
