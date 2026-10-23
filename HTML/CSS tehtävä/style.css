@@ -3,23 +3,22 @@ body{
     padding: 0;
     font-family: sans-serif;
 }
-header{
-    background-color:lightgoldenrodyellow;
-    overflow: hidden;
-    padding: 10px;
-}
+
 p{
     color:cornflowerblue
 }
+
 nav{
-    padding: 10px;
-    text-align: right;
+    text-align:end;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: lightgoldenrodyellow;
+    height: 4rem;
 }
+
 .navbox{
-    box-sizing: border-box;
-    padding: 32px;
-    border: 10px;
-    text-align: center;
+    padding: 3rem;
+    border: 3rem;
 }
 
 h1{
@@ -32,11 +31,15 @@ h1{
 }
 
 .logo{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-left: 7%;
+    margin-top: 0.5rem;
 }
 
 .tavimg{
-    max-width: 500px; 
-    max-height: 500px;
+    max-width: 30rem; 
+    max-height: 30rem;
+    display: block;
+    margin: auto;
 }
