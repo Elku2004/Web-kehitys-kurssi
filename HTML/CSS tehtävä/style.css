@@ -2,15 +2,13 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background-color: lightgoldenrodyellow;
 }
 .teksti{
     margin-left: 10%;
     margin-right: 10%;
 }
 
-p{
-    color:cornflowerblue
-}
 a{
     color:black;
 }
@@ -19,11 +17,12 @@ a:visited{
 }
 
 header{
-    background-color: lightgoldenrodyellow;
+    background-color: #fdd501;
     height: 4rem;
     margin-left: 5rem;
     margin-right: 5rem;
     display: flex;
+    justify-content: right;
 }
 
 nav{
@@ -65,4 +64,50 @@ h1{
     max-height: 30rem;
     display: block;
     margin: auto;
+}
+.banner{
+    display: block;
+    max-width: 50rem;
+    margin: auto;
+    align-items: center;
+}
+
+.tuotelista{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    justify-content: space-evenly;
+}
+
+.tuote{
+    display: flex;
+    flex-direction: column;
+    background-color: #fce35d;
+    margin: 1rem;
+    width: 15rem;
+    max-height: 30rem;
+    align-items: center;
+}
+.kuvapaikka{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: white;
+    width: 90%;
+    height: 15rem;
+}
+.tuote:hover{
+    background-color: gray;
+}
+
+.tuotekuva{
+        margin-top: 1rem;
+        display: block;
+        max-width: 12rem;
+        max-height: 12rem;
+}
+
+.tuoteteksti{
+    width: 90%;
 }
