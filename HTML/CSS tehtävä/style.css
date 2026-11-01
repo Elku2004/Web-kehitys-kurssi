@@ -1,36 +1,48 @@
 body{
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: lightgoldenrodyellow;
-}
-.teksti{
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: lightgrey;
+    justify-content: center;
 }
 
+.tausta{
+    background-color: lightgoldenrodyellow;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 50rem;
+}
+
+.teksti{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+}
 a{
     color:black;
-}
-a:visited{
-    color: black;
+    text-decoration: none;
 }
 
 header{
+    display: flex;
     background-color: #fdd501;
     height: 4rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    display: flex;
-    justify-content: right;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
 }
 
 nav{
     display: flex;
-    justify-content: right;
+    flex-flow: row;
     height: 4rem;
-    width: 5000rem;
-    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    font-style: italic;
 }
 
 .navbox{
@@ -43,8 +55,10 @@ nav{
 }
 
 h1{
+    padding-top: 5%;
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .navbox:hover{
@@ -66,17 +80,14 @@ h1{
     margin: auto;
 }
 .banner{
-    display: block;
+    display: flex;
     max-width: 50rem;
     margin: auto;
-    align-items: center;
 }
 
 .tuotelista{
     display: flex;
     flex-flow: row wrap;
-    margin-left: 17rem;
-    margin-right: 17rem;
     justify-content: space-evenly;
 }
 
@@ -98,7 +109,7 @@ h1{
     height: 15rem;
 }
 .tuote:hover{
-    background-color: gray;
+    background-color: lightgrey;
 }
 
 .tuotekuva{
@@ -110,4 +121,14 @@ h1{
 
 .tuoteteksti{
     width: 90%;
+}
+
+.sivukolme{
+    display: flex;
+}
+
+.kartta{
+    width: 40rem;
+    height: 25rem;
+    margin-right: 5rem;
 }

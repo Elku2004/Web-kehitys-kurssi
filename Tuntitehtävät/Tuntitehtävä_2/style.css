@@ -1,0 +1,6 @@
+.continer{
+    display: flex;
+    margin: auto;
+    width: 54%;
+    justify-content: center;
+}
