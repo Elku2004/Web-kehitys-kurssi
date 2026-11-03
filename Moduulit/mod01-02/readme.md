@@ -111,3 +111,72 @@ document.querySelector("#welcome").innerHTML = `${lopputulos}`
 
 # Tehtävä 8
 
+const alku = prompt("Anna alkuvuosi")
+const loppu = prompt("Anna loppuvuosi")
+const ul = document.querySelector('ul');
+let karkausvuosi = "";
+let i = alku
+
+for (i; i <= loppu; i++) {
+    if (i % 4 == 0) {
+        if (i % 100 == 0 && i % 400 == 0) {
+            karkausvuosi = document.createElement('li');
+            karkausvuosi.innerText = `${i}`;
+            ul.appendChild(karkausvuosi);
+        } else if (i % 100 != 0) {
+            karkausvuosi = document.createElement('li');
+            karkausvuosi.innerText = `${i}`;
+            ul.appendChild(karkausvuosi);
+        }
+    }
+}
+
+# Tehtävä 9
+
+const luku = prompt("Anna luku")
+let i = 1
+do {
+    console.log(i)
+    if (i == luku) {
+        document.querySelector("#welcome").innerHTML = `Luku ${luku} on alkuluku`;
+    } else if (luku % i == 0 && i != 1) {
+        document.querySelector("#welcome").innerHTML = `Luku ${luku} ei ole alkuluku`;
+        break;
+    }
+    i++
+} while (i <= luku);
+
+# Tehtävä 10
+
+function randomNumero(){
+    return Math.floor(Math.random() * 6 + 1);
+}
+
+function heitaNoppaa(kerrat) {
+    summa = 0
+    for (let i = 0; i < kerrat; i++) {
+        let numero = randomNumero();
+        summa += numero;
+    }
+    return summa
+}
+
+function laskeProsentti(nopat, tavoiteSumma) {
+    let goal = 0;
+    for (let i = 0; i < 10000; i++) {
+        let summa = heitaNoppaa(nopat);
+        if (summa == tavoiteSumma) {
+            goal = goal + 1;
+        }
+    }
+    goal = goal / 100;
+    return goal
+}
+let summa = 0
+const nopat = prompt("Monta noppaa?");
+const tavoiteSumma = prompt("Mikä summa?");
+const prosentti = laskeProsentti(nopat, tavoiteSumma)
+
+
+
+document.querySelector("#welcome").innerHTML = `Todennäköisyys saada summa ${tavoiteSumma} on ${prosentti.toFixed(3)} ${`&percnt;`}`;
