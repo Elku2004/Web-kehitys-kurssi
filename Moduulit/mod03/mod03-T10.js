@@ -36,8 +36,11 @@ for (let i = 0; i < aanestysMaara; i++) {
     vote(ehdokkaat);
 }
 
-ehdokkaat.sort((a, b) => a - b);
-ehdokkaat.reverse();
+
+ehdokkaat.sort((a, b) => {
+  console.log(a, b);
+  return b.votes - a.votes;
+});
 
 console.log(`Voittaja on ${ehdokkaat[0].name} ${ehdokkaat[0].votes} äänellä`)
 
