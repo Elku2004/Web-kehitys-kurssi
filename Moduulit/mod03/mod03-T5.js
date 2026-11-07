@@ -1,4 +1,5 @@
 "use strict";
+
 let numerot = [];
 do {
     let numero = prompt("Anna luku")
