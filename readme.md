@@ -1,5 +1,6 @@
 # Viikko 1
-# Moduulit 01 ja 02 https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/mod01-02/index.html
+# Moduulit 01 ja 02
+[Linkki](https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/mod01-02/index.html)
 Tehtävä 1 - 1p
 Tehtävä 2 - 2p
 Tehtävä 3 - 3p
@@ -13,7 +14,8 @@ Tehtävä 10 - 5p
 
 **Yhteensä - 27p**
 
-# Moduuli 03 tehtävät https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/mod03/index.html
+# Moduuli 03 tehtävät
+[Linkki](https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/mod03/index.html)
 Tehtävä 1 - 2p
 Tehtävä 2 - 2p
 Tehtävä 3 - 2p
