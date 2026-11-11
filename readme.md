@@ -28,7 +28,7 @@ Tehtävä 10 - 8p
 **Yhteensä - 27p**
 
 # Moduuli 04 tehtävät 
-[](https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/mod04/index.html)
+[Linkki](https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/mod04/index.html)
 Tehtävä 1
 Tehtävä 2
 Tehtävä 3
