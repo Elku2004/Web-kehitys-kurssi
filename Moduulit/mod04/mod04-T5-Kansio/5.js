@@ -93,3 +93,25 @@ const picArray = [
 ];
 
 // add your code here
+const section = document.querySelector("#pictures");
+
+for (let pic in picArray) {
+  let article = document.createElement("article");
+  article
+
+  let h2 = document.createElement("h2");
+  h2.textContent = picArray[pic].title
+  article.appendChild(h2);
+
+  let figure = document.createElement("figure")
+  figure.innerHTML = `<img src = "${picArray[pic].image.medium}" alt="${picArray[pic].title}">
+                      <figcaption>${picArray[pic].caption}</figcaption>`
+
+  article.appendChild(figure)
+
+  let desc = document.createElement("p")
+  desc.textContent = picArray[pic].description
+  article.appendChild(desc)
+
+  section.appendChild(article)
+}
