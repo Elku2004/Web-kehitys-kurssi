@@ -2,6 +2,8 @@
 # Viikko 2
 # Viikko 3
 # Viikko 4
+# Viikko 5
+# Viikko 6
 
 
 # [Moduulit 01 ja 02](https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/mod01-02/index.html)
@@ -11,3 +13,5 @@
 
 
 # [Moduuli 04 tehtävät](https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/mod04/index.html)
+
+# [Python Flask tehtävät]((https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/pythonFlask/index.html))
