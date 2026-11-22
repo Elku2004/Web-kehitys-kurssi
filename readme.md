@@ -14,4 +14,4 @@
 
 # [Moduuli 04 tehtävät](https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/mod04/index.html)
 
-# [Python Flask tehtävät]((https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/pythonFlask/index.html))
+# [Python Flask tehtävät](https://elku2004.github.io/Web-kehitys-kurssi/Moduulit/pythonFlask/index.html)
